@@ -9,108 +9,65 @@ html {
 }
 
 body {
-    color: #fff;
-    background-color: #add8e6;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-img {
-    max-width: 100%;
-}
-
-
-/* Header */
-
-.header-top {
-    color: #000;
-}
-
-.header-top__first {
-    border: solid 3px #ff0000;
-    background-color: #fff;
-}
-
-.header-top__second {
-    margin: 40px;
-    border: solid 3px #ff0000;
-    background-color: #fff;
-}
-
-.header-top__third {
-    padding: 40px;
-    background-color: #fff;
-}
-
-.header-top__fourth {
-    margin: 40px;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.header-top__fifth {
-    margin: 40px;
-    border: solid 20px #ff0000;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.header-logo {
-    min-height: 190px;
-    padding: 30px;
-    background-color: #ff8c00;
-}
-
-.header-logo__img {
-    width: 90px;
-    border-radius: 50%;
-}
-
-.header-logo__name {
-    margin: 10px 0;
-    font-size: 50px;
-}
-
-.nav__item {
-    width: 150px;
-    padding: 10px 20px;
-    margin: 10px;
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
     text-align: center;
     background-color: #ff8c00;
-    text-align: left;
-    border-radius: 10px;
-    list-style-type: none;
+    border: 6px solid rgb(97, 94, 94);
 }
 
-.nav__item:hover {
-    background-color: rgb(12, 12, 51);
+.header {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 20px 20px;
+    background-color: rgb(204, 201, 188);
+    border: 6px solid rgb(97, 94, 94);
 }
 
-.nav__link {
-    color: #fff;
-    text-decoration: none;
+.nav {
+    margin-top: 20px;
+    border: 6px solid rgb(97, 94, 94);
 }
 
-
-/* Section author goal */
-
-.author-goal__title {
-    color: #000;
+.main {
+    min-height: 320px;
+    margin-top: 20px;
+    background-color: rgb(204, 201, 188);
+    border: 6px solid rgb(97, 94, 94);
 }
 
-.author-goal-list {
-    color: #000;
-    background-color: #778899;
+.content-align {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
 }
 
+.content {
+    padding: 0 10px;
+    width: 40%;
+    height: 200px;
+    border: 6px solid rgb(97, 94, 94);
+}
 
-/* Footer */
+.sub-text {
+    margin-top: 15px;
+    border: 3px solid rgb(97, 94, 94);
+}
+
+.aside {
+    width: 40%;
+    height: 200px;
+    border: 6px solid rgb(97, 94, 94);
+}
 
 .footer {
-    padding: 20px;
-    margin: 20px;
-    background-color: #008b8b;
-    border: solid 10px #ff8c00;
-}
-
-.footer__text {
-    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(204, 201, 188);
+    border: 6px solid rgb(97, 94, 94);
 }

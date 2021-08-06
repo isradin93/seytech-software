@@ -5,69 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beyond the Basics</title>
-    <link rel="stylesheet" href="css/normalize.css">
+    <title>Semantic HTML</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="container">
+        <div class="text">Container</div>
+
         <header class="header">
-            <div class="header-top">
-                <p class="header-top__first">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum repudiandae suscipit alias. Quod hic debitis nesciunt nam repellat atque obcaecati culpa alias dicta quisquam, delectus earum similique quaerat incidunt?
-                </p>
-                <p class="header-top__second">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum repudiandae suscipit alias. Quod hic debitis nesciunt nam repellat atque obcaecati culpa alias dicta quisquam, delectus earum similique quaerat incidunt?
-                </p>
-                <p class="header-top__third">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum repudiandae suscipit alias. Quod hic debitis nesciunt nam repellat atque obcaecati culpa alias dicta quisquam, delectus earum similique quaerat incidunt?
-                </p>
-                <p class="header-top__fourth">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum repudiandae suscipit alias. Quod hic debitis nesciunt nam repellat atque obcaecati culpa alias dicta quisquam, delectus earum similique quaerat incidunt?
-                </p>
-                <p class="header-top__fifth">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum repudiandae suscipit alias. Quod hic debitis nesciunt nam repellat atque obcaecati culpa alias dicta quisquam, delectus earum similique quaerat incidunt?
-                </p>
-            </div>
-
-            <div class="header-logo">
-                <a href="#" class="header-logo__link">
-                    <img src="img/marat.jpg" alt="Picture of student Marat" class="header-logo__img">
-                </a>
-
-                <h1 class="header-logo__name">Marat Gaipov</h1>
-            </div>
+            <div class="text">Header</div>
 
             <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Homepage</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Tools</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">My choices</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Websites to follow</a>
-                    </li>
-                    <li class="nav__item"><a href="https://www.seytech.co/" class="nav__link" target="_blank">Seytech</a></li>
-                </ul>
+                <div class="text">Nav</div>
             </nav>
         </header>
 
         <main class="main">
-            <section class="author-goal">
-                <h2 class="author-goal__title">My goals</h2>
-                <ol class="author-goal-list">
-                    <li class="author-goal-list__item">Learning HTML/CSS</li>
-                    <li class="author-goal-list__item">Learning Javascript</li>
-                    <li class="author-goal-list__item">Learning React</li>
-                    <li class="author-goal-list__item">Finding a Software engineering job</li>
-                </ol>
-            </section>
+            <div class="text">Wrapper</div>
+
+            <div class="content-align">
+                <section class="content">
+                    <div class="text">Content</div>
+                    <div class="sub-text">Sub Content 1</div>
+                    <div class="sub-text">Sub Content 2</div>
+                </section>
+
+                <aside class="aside">
+                    <div class="text">Sidebar</div>
+                </aside>
+            </div>
         </main>
 
         <footer class="footer">
-            <p class="footer__text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad eveniet iste adipisci sint natus nisi! Cupiditate, minima praesentium cumque, aliquid beatae voluptas sequi, voluptatibus perspiciatis corrupti a architecto cum dolore? Lorem ipsum dolor sit,
-                amet consectetur adipisicing elit. Ad eveniet iste adipisci sint natus nisi! Cupiditate, minima praesentium cumque, aliquid beatae voluptas sequi, voluptatibus perspiciatis corrupti a architecto cum dolore?
-            </p>
+            <div class="text">Footer</div>
         </footer>
     </div>
 </body>
