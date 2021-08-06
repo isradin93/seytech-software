@@ -8,30 +8,19 @@ html {
     box-sizing: inherit;
 }
 
-img {
-    max-width: 100%;
+button {
+    width: 30%;
+    height: 200px;
+    font-size: 50px;
+    border: solid 30px #2f4f4f;
+    background-color: #d3d3d3;
+    border-radius: 10px;
 }
 
-
-/* Page tools */
-
-table,
-td,
-th {
-    border: 1px solid #333;
-}
-
-
-/* Page my choices */
-
-.choices__item {
-    margin: 0;
-    list-style-type: circle;
-}
-
-
-/* Page websites to follow */
-
-.websites-table {
-    width: 1400px;
+.btn-red {
+    width: 100%;
+    font-weight: bold;
+    text-align: right;
+    font-style: italic;
+    color: #ff1493;
 }
