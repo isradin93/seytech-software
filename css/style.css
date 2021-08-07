@@ -8,66 +8,28 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.container {
-    width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px 20px;
-    text-align: center;
-    background-color: #ff8c00;
-    border: 6px solid rgb(97, 94, 94);
-}
-
-.header {
-    width: 100%;
-    margin-top: 20px;
-    padding: 0 20px 20px;
-    background-color: rgb(204, 201, 188);
-    border: 6px solid rgb(97, 94, 94);
-}
-
-.nav {
-    margin-top: 20px;
-    border: 6px solid rgb(97, 94, 94);
-}
-
-.main {
-    min-height: 320px;
-    margin-top: 20px;
-    background-color: rgb(204, 201, 188);
-    border: 6px solid rgb(97, 94, 94);
-}
-
-.content-align {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-}
-
-.content {
-    padding: 0 10px;
-    width: 40%;
+div {
+    padding: 25px 20px 0 35px;
+    width: 350px;
     height: 200px;
-    border: 6px solid rgb(97, 94, 94);
+    font-size: 45px;
+    color: #fff;
 }
 
-.sub-text {
-    margin-top: 15px;
-    border: 3px solid rgb(97, 94, 94);
+.block-red {
+    background-color: red;
 }
 
-.aside {
-    width: 40%;
-    height: 200px;
-    border: 6px solid rgb(97, 94, 94);
+.block-green {
+    position: relative;
+    left: 128px;
+    bottom: 70px;
+    background-color: greenyellow;
 }
 
-.footer {
-    margin-top: 20px;
-    background-color: rgb(204, 201, 188);
-    border: 6px solid rgb(97, 94, 94);
+.block-blue {
+    position: relative;
+    left: 250px;
+    bottom: 360px;
+    background-color: blue;
 }
