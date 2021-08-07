@@ -8,66 +8,78 @@ html {
     box-sizing: inherit;
 }
 
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
 body {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
 }
 
 .container {
-    width: 1400px;
+    width: 1300px;
     margin: 0 auto;
-    padding: 0 20px 20px;
-    text-align: center;
-    background-color: #ff8c00;
-    border: 6px solid rgb(97, 94, 94);
-}
-
-.header {
-    width: 100%;
-    margin-top: 20px;
-    padding: 0 20px 20px;
-    background-color: rgb(204, 201, 188);
-    border: 6px solid rgb(97, 94, 94);
-}
-
-.nav {
-    margin-top: 20px;
-    border: 6px solid rgb(97, 94, 94);
-}
-
-.main {
-    min-height: 320px;
-    margin-top: 20px;
-    background-color: rgb(204, 201, 188);
-    border: 6px solid rgb(97, 94, 94);
-}
-
-.content-align {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
 }
 
 .content {
-    padding: 0 10px;
-    width: 40%;
-    height: 200px;
-    border: 6px solid rgb(97, 94, 94);
+    display: flex;
+    justify-content: space-between;
 }
 
-.sub-text {
-    margin-top: 15px;
-    border: 3px solid rgb(97, 94, 94);
+.block {
+    width: 850px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.block__img {
+    width: 850px;
+    height: 550px;
+}
+
+.block__content {
+    padding: 0 30px 30px 30px;
+}
+
+.more {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(75, 71, 71);
+}
+
+.more:hover {
+    background-color: rgb(11, 83, 83);
 }
 
 .aside {
-    width: 40%;
-    height: 200px;
-    border: 6px solid rgb(97, 94, 94);
+    width: 400px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
-.footer {
-    margin-top: 20px;
-    background-color: rgb(204, 201, 188);
-    border: 6px solid rgb(97, 94, 94);
+.aside__content {
+    padding: 0 30px 30px 30px;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+}
+
+.wrapper-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style-type: none;
+}
+
+.wrapper-list__item {
+    width: 400px;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+
+.article__content {
+    padding: 0 30px 30px 30px;
 }

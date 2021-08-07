@@ -5,41 +5,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Semantic HTML</title>
+    <title>Layout</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="text">Container</div>
-
-        <header class="header">
-            <div class="text">Header</div>
-
-            <nav class="nav">
-                <div class="text">Nav</div>
-            </nav>
-        </header>
-
         <main class="main">
-            <div class="text">Wrapper</div>
-
-            <div class="content-align">
-                <section class="content">
-                    <div class="text">Content</div>
-                    <div class="sub-text">Sub Content 1</div>
-                    <div class="sub-text">Sub Content 2</div>
+            <div class="content">
+                <section class="block">
+                    <img class="block__img" src="img/nature-img1.jpg" alt="Image of nature">
+                    <div class="block__content">
+                        <h2 class="block__title title">Seamlessly visualize quality</h2>
+                        <p class="block__text">Collaboratively administrate empowered markets via plug-and-play networks
+                        </p>
+                        <a href="#" class="block__more more">Here's why</a>
+                    </div>
                 </section>
 
                 <aside class="aside">
-                    <div class="text">Sidebar</div>
+                    <img class="aside__img img" src="img/nature-img2.jpg" alt="Image of nature">
+                    <div class="aside__content">
+                        <h2 class="aside__title title">Completely Synergize</h2>
+                        <p class="aside__text text">Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing</p>
+                        <a href="#" class="aside__more more">Here's how</a>
+                    </div>
                 </aside>
             </div>
-        </main>
 
-        <footer class="footer">
-            <div class="text">Footer</div>
-        </footer>
+            <ul class="wrapper-list">
+                <li class="wrapper-list__item">
+                    <article class="article-block">
+                        <img src="img/nature-img3.jpg" alt="Image of nature" class="article-block__img img">
+                        <div class="article__content">
+                            <h2 class="article__title title">Dynamically Procrastinate</h2>
+                            <p class="article__text text">Completely synergize resource taxing relationships via premier niche markets</p>
+                            <a href="#" class="article__more more">Read more</a>
+                        </div>
+                    </article>
+                </li>
+                <li class="wrapper-list__item">
+                    <article class="article-block">
+                        <img src="img/nature-img4.jpg" alt="Image of nature" class="article-block__img img">
+                        <div class="article__content">
+                            <h2 class="article__title title">Best in class</h2>
+                            <p class="article__text text">Imagine jumping into that boat, and just letting it sail wherever the wind takes you</p>
+                            <a href="#" class="article__more more">Just do it...</a>
+                        </div>
+                    </article>
+                </li>
+                <li class="wrapper-list__item">
+                    <article class="article-block">
+                        <img src="img/nature-img5.jpg" alt="Image of nature" class="article-block__img img">
+                        <div class="article__content">
+                            <h2 class="article__title title">Dynamically innovate supply chains</h2>
+                            <p class="article__text text">Holisticly predominate testing procedures for reliable supply chains
+                            </p>
+                            <a href="#" class="article__more more">Here's why</a>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </main>
     </div>
 </body>
 

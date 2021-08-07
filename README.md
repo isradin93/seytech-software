@@ -1,1 +1,1 @@
-# Project Semantic HTML
+# Project layout
