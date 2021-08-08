@@ -8,7 +8,7 @@ html {
     box-sizing: inherit;
 }
 
-body {
+.home-page {
     color: #fff;
     background-color: #add8e6;
 }
@@ -113,4 +113,25 @@ img {
 
 .footer__text {
     text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid #333;
+}
+
+
+/* Page my choices */
+
+.choices__item {
+    margin: 0;
+    list-style-type: circle;
+}
+
+
+/* Page websites to follow */
+
+.websites-table {
+    width: 1400px;
 }
