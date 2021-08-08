@@ -8,130 +8,83 @@ html {
     box-sizing: inherit;
 }
 
-.home-page {
+body {
+    font-size: 35px;
     color: #fff;
-    background-color: #add8e6;
+    background-color: rgb(131, 128, 128);
 }
 
 img {
     max-width: 100%;
 }
 
-
-/* Header */
-
-.header-top {
-    color: #000;
+.header__content {
+    width: 625px;
+    position: relative;
 }
 
-.header-top__first {
-    border: solid 3px #ff0000;
-    background-color: #fff;
+.image__text {
+    position: absolute;
+    top: 27%;
+    left: 23%;
+    margin-bottom: 10px;
+    font-size: 48px;
+    text-transform: uppercase;
 }
 
-.header-top__second {
-    margin: 40px;
-    border: solid 3px #ff0000;
-    background-color: #fff;
+.image__text::after {
+    content: "";
+    display: block;
+    width: 170px;
+    margin: 15px auto 0 auto;
+    border: 2px solid rgb(58, 6, 6);
 }
 
-.header-top__third {
-    padding: 40px;
-    background-color: #fff;
+.image__little-text {
+    position: absolute;
+    top: 53%;
+    left: 43%;
+    font-size: 16px;
 }
 
-.header-top__fourth {
-    margin: 40px;
-    padding: 20px;
-    background-color: #fff;
+.nav-list {
+    padding: 0;
 }
 
-.header-top__fifth {
-    margin: 40px;
-    border: solid 20px #ff0000;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.header-logo {
-    min-height: 190px;
-    padding: 30px;
-    background-color: #ff8c00;
-}
-
-.header-logo__img {
-    width: 90px;
-    border-radius: 50%;
-}
-
-.header-logo__name {
-    margin: 10px 0;
-    font-size: 50px;
-}
-
-.nav__item {
-    width: 150px;
-    padding: 10px 20px;
-    margin: 10px;
-    text-align: center;
-    background-color: #ff8c00;
-    text-align: left;
-    border-radius: 10px;
+.nav-list__item {
     list-style-type: none;
 }
 
-.nav__item:hover {
-    background-color: rgb(12, 12, 51);
+.nav-list__link:hover {
+    text-decoration: underline;
+    color: rgb(42, 202, 194);
 }
 
-.nav__link {
+.logo {
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.about {
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.powered {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+}
+
+.seytech {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+.nav-list__link {
     color: #fff;
     text-decoration: none;
-}
-
-
-/* Section author goal */
-
-.author-goal__title {
-    color: #000;
-}
-
-.author-goal-list {
-    color: #000;
-    background-color: #778899;
-}
-
-
-/* Footer */
-
-.footer {
-    padding: 20px;
-    margin: 20px;
-    background-color: #008b8b;
-    border: solid 10px #ff8c00;
-}
-
-.footer__text {
-    text-align: center;
-}
-
-table,
-td,
-th {
-    border: 1px solid #333;
-}
-
-
-/* Page my choices */
-
-.choices__item {
-    margin: 0;
-    list-style-type: circle;
-}
-
-
-/* Page websites to follow */
-
-.websites-table {
-    width: 1400px;
 }
